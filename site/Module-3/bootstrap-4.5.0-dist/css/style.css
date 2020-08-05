@@ -1,0 +1,51 @@
+*{
+	box-sizing: border-box;
+}
+
+.navbar-toggler-icon{
+	background-image: url( 
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 128, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+float: right;
+border: 1px solid #61122f;
+}
+
+#chicken_section, #mutton_section, #fish_section{
+  background-color:#F4BBCF ; 
+  font-family: Helvetica;
+  color: black;
+  border: 1px solid black;
+  height: 300px;
+  margin: 10px;
+}
+
+.span1 {
+	width: 100%;
+  color: 	#A52A2A;
+  font-size: 1.5em;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  background-color:black;
+  border: 2px solid #EE82EE;
+}
+
+#header-2{
+	width:100%;
+	text-align: center;
+	color: 	#EE82EE;
+	margin:10px;
+	padding: 10px;
+	background-color: #A52A2A;
+}
+
+#backtotop{
+	color: 	black;
+	background-color: #ADD8E6;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size: 3.5em;
+}
+
+body{
+	background-color: black;
+}
+

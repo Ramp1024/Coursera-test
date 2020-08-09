@@ -117,7 +117,7 @@ function buildAndShowHomeHTML (categories) {
       // it into the home html snippet.
       //
       // var homeHtmlToInsertIntoMainPage = ....
-      var homeHtmltoInsertIntoMainPage = insertProperty(homeHtml,"randomCategoryShortName", + chosenCategoryShortName.short_name);
+      var homeHtmltoInsertIntoMainPage = insertProperty(homeHtml,"randomCategoryShortName","\'" + chosenCategoryShortName.short_name);
 
 
 
@@ -130,6 +130,7 @@ function buildAndShowHomeHTML (categories) {
 
     },
     false); // False here because we are getting just regular HTML from the server, so no need to process JSON.
+}
 }
 
 

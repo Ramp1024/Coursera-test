@@ -86,7 +86,7 @@ $ajaxUtils.sendGetRequest(
    buildAndShowHomeHTML
  // ***** <---- TODO: STEP 1: Substitute [...] ******
 ,true);
-};
+});
 // *** finish **
 
 
